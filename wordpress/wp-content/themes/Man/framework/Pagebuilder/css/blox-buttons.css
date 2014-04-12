@@ -1,0 +1,171 @@
+/*	
+	BUTTONS ELEMENT
+	-----------------------------------------------------
+*/
+
+.blox_elem_button {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	margin-right: 15px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.blox_elem_button:last-child, .blox_elem_button:first-child:last-child {
+	margin-right: 0;
+}
+
+/*	Icon Animation
+*/
+
+.blox_elem_button > [class^="icon-"] {
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+
+	-moz-transform: rotateX(0deg) rotateY(0deg);
+	-moz-transform-style: preserve-3d;
+	-moz-backface-visibility: hidden;
+
+	/* -- transition is the magic sauce for animation -- */
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+
+	margin-right: 5px;
+}
+.blox_elem_button:hover > [class^="icon-"] {
+	-webkit-transform: rotateY(360deg);
+	-moz-transform: rotateY(360deg);
+}
+
+/*	Button Sizes
+*/
+
+.blox_elem_button_small {
+	padding: 5px 10px;
+	font-size: 11px;
+}
+.blox_elem_button_medium {
+	font-size: 13px;
+	padding: 10px 15px;
+}
+.blox_elem_button_large {
+	font-size: 14px;
+	padding: 15px 20px;
+}
+.blox_elem_button_large {
+	font-size: 18px;
+	padding: 25px 40px;
+}
+
+/*	Button Styles
+*/
+
+.blox_elem_border_bordered {
+	border-radius: 7px;
+}
+.blox_elem_border_circle {
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
+.blox_elem_border_rectangle {
+	border-radius: 0;
+}
+
+/*	Flat Button
+*/
+
+.blox_elem_button_flat {
+	border-style: solid;
+	border-width: 1px;
+	font-weight: bold;
+	position: relative;	
+}
+
+/*	Metro Button
+*/
+
+.blox_elem_button_metro > [class^="icon-"] {
+	display: block;
+	font-size: 4em;
+	text-align: center;
+	height: 1em;
+	width: 1em;
+	margin: 0 .5em;
+	margin-bottom: .1em;
+}
+.blox_elem_button_metro {
+	width: 8em;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	display: inline-block;
+	border: 1px solid rgba(0,0,0,0.1);
+	padding: 1em 0em;
+}
+.blox_elem_button_metro span {
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+	line-height: 1em;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+/*	3d Button
+*/
+
+.blox_elem_button_3d {
+	font-weight: bold;
+	color: #FFF;
+	position: relative;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(0,0,0,.1);
+	-webkit-box-shadow: 0px 5px 0px rgba(0,0,0,.2), 0px 5px 25px rgba(0,0,0,.4);
+	-moz-box-shadow: 0px 5px 0px rgba(0,0,0,.2), 0px 5px 25px rgba(0,0,0,.4);
+	box-shadow: 0px 5px 0px rgba(0,0,0,.2), 0px 5px 25px rgba(0,0,0,.4);
+	background-color: rgba(0,0,0,.1);
+}
+.blox_elem_button_3d:hover {
+	color: #FFF;
+	top: -2px;
+	text-shadow: 0 0 10px rgba(255,255,255,.7);
+	-webkit-box-shadow: 0px 7px 0px rgba(0,0,0,.2), 0px 7px 25px rgba(0,0,0,.3);
+	-moz-box-shadow: 0px 7px 0px rgba(0,0,0,.2), 0px 7px 25px rgba(0,0,0,.3);
+	box-shadow: 0px 7px 0px rgba(0,0,0,.2), 0px 7px 25px rgba(0,0,0,.3);
+	
+}
+.blox_elem_button_3d:active {
+	-webkit-box-shadow: 0px 1px 0px rgba(0,0,0,.2), 0px 1px 6px rgba(0,0,0,.2);
+	-moz-box-shadow: 0px 1px 0px rgba(0,0,0,.2), 0px 1px 6px rgba(0,0,0,.2);
+	box-shadow: 0px 1px 0px rgba(0,0,0,.2), 0px 1px 6px rgba(0,0,0,.2);
+	position: relative;
+	top: 3px;
+}
+
+/*	Default Button
+*/
+
+.blox_elem_button_default {
+	background-color: #00b4cc;
+	border: 1px solid rgba(0,0,0,.1);
+	color: #FFF;
+	font-weight: bold;
+}
+.blox_elem_button_default:hover {
+	color: #FFF;
+	border-color: rgba(0,0,0,.15);
+	background-color: #009eb3;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+}
+.blox_elem_button_default_colored {
+	border-color: rgba(0, 0, 0, .1);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+}

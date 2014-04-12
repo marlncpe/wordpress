@@ -1,0 +1,37 @@
+/*	
+	CONTENT BOX ELEMENT
+	-----------------------------------------------------
+*/
+
+.blox_elem_content_box {
+	border-width: 1px;
+	border-style: solid;
+	background-color: #f6f6f6;
+	border-color: #ededed;
+	background-color: rgba(192, 192, 192, .1);
+	border-color: rgba(192, 192, 192, .3);
+}
+.blox_elem_content_box h3 {
+	font-size: 14px;
+	padding: 15px 30px;
+	line-height: 1.1em;
+	border-bottom: 1px solid #ededed;
+	border-bottom: 1px solid rgba(192, 192, 192, .3);
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 0;
+} 
+.blox_elem_content_box .blox_elem_content_box_content {
+	padding: 15px 30px;
+}
+
+.blox_elem_content_box_colored {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.blox_elem_content_box_colored h3 {
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.no_border, .no_border h3, .no_border .blox_elem_content_box_colored {
+	border: none;
+}

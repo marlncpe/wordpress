@@ -1,0 +1,41 @@
+/*	
+	NOTIFICATION BOX ELEMENT
+	-----------------------------------------------------
+*/
+
+.blox_elem_notification_box {
+	border-width: 1px;
+	border-style: solid;
+	background-color: #f6f6f6;
+	border-color: #ededed;
+	background-color: rgba(192, 192, 192, .1);
+	border-color: rgba(192, 192, 192, .3);
+	position: relative;
+}
+.blox_elem_notification_box .blox_elem_notification_box_icon {
+	display: inline-block;
+	float: left;
+	padding: 1em;
+}
+.blox_elem_notification_box .blox_elem_notification_box_icon [class^="icon-"] {
+	position: absolute;
+	top: 50%;
+	margin-top: -.5em;
+	height: 1em;
+	width: 1em;
+	font-size: 2em;
+	text-align: center;
+}
+.blox_elem_notification_box .blox_elem_notification_box_content {
+	padding: 40px;
+	border: 0;
+	border-style: solid;
+	border-color: #ededed;
+	border-left-width: 4em;
+	font-size: 1.1em;
+}
+
+.blox_elem_notification_box_colored, .blox_elem_notification_box_colored .blox_elem_notification_box_content {
+	border-color: rgba(0, 0, 0, 0.1);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}

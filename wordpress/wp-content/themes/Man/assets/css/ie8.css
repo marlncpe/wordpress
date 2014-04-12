@@ -1,0 +1,48 @@
+input, input, textarea, textarea, select, select, .widget ul li, .widget ul li,
+.widget_pages ul, .widget_pages ul, .widget ul.menu, .widget ul.menu, .left_sidebar, .left_sidebar,
+.right_sidebar, .right_sidebar, .grid_entry article.entry, .grid_entry article.entry,
+ul.products li.product .entry_product, ul.products li.product .entry_product,
+div.product .woocommerce-tabs, #contentdiv.product .woocommerce-tabs, div.product .woocommerce-tabs, #contentdiv.product .woocommerce-tabs,
+div.product .woocommerce-tabs .panel, #contentdiv.product .woocommerce-tabs .panel,
+div.product .woocommerce-tabs .panel, #contentdiv.product .woocommerce-tabs .panel,
+div.product .woocommerce-tabs ul.tabs li, div.product .woocommerce-tabs ul.tabs li, #contentdiv.product .woocommerce-tabs ul.tabs li, #content div.product .woocommerce-tabs ul.tabs li,
+.quantity .plus, .quantity .plus, #content.quantity .plus, #content.quantity .plus, .quantity .minus, .quantity .minus, #content.quantity .minus, #content.quantity .minus,
+.quantity input.qty, .quantity input.qty, #content.quantity input.qty, #content.quantity input.qty,
+table.shop_table, table.shop_table, table.shop_table td, table.shop_table td,
+.woo_title, .woo_title, /*input:-webkit-autofill, input:-webkit-autofill,*/
+.cart-collaterals .cart_totals tr td, .cart-collaterals .cart_totals tr td, .cart-collaterals .cart_totals tr th, .cart-collaterals .cart_totals tr th,
+table.shop_table tfoot td, table.shop_table tfoot td, table.shop_table tfoot th, table.shop_table tfoot th,
+.widget_shopping_cart .total, .widget_shopping_cart .total,
+.medium_top_image .entry_format, .medium_top_image .entry_format,
+.blog_big .entry_meta ul, ul.top_meta, .medium_left_image .entry_meta ul, .medium_right_image .entry_meta ul,
+.blog_big .entry_meta ul, ul.top_meta, .medium_left_image .entry_meta ul, .medium_right_image .entry_meta ul,
+.blox_elem_placeholder, .blox_elem_placeholder, .commentlist > li.comment, .commentlist > li.comment,
+.single_footer, .single_footer, #comments-title, h3.comment-reply-title, #comments-title, h3.comment-reply-title,
+table#wp-calendar tr, table#wp-calendar tr, .form-allowed-tags code, .form-allowed-tags code,
+.commentlist > li.comment ul.children li.comment, .commentlist > li.comment ul.children li.comment, .entry_meta_big, .entry_meta_big,
+.blog_big .entry_content_big_container, .blog_big .entry_content_big_container,
+.blog_medium .entry_media, .blog_big .entry_media, .blog_medium .entry_media, .blog_big .entry_media,
+.tt_tabs ul.tab_header:before, .tt_tabs ul.tab_header li.active, .tt_tabs.horizontal_tab ul.tab_header li, .tt_accordion .accordion_title, 
+.tt_accordion .accordion_title:first-child, .tt_toggle .tt_toggle_title:first-child, .tt_toggle .tt_toggle_title, .tt_accordion .accordion_content, 
+.tt_toggle .tt_toggle_inner, .hr,
+.tt_tabs ul.tab_header:before, .tt_tabs ul.tab_header li.active, .tt_tabs.horizontal_tab ul.tab_header li, .tt_accordion .accordion_title, 
+.tt_accordion .accordion_title:first-child, .tt_toggle .tt_toggle_title:first-child, .tt_toggle .tt_toggle_title, .tt_accordion .accordion_content, 
+.tt_toggle .tt_toggle_inner, .hr,
+.blox_elem_audio, .blox_elem_video, .blox_elem_audio, .blox_elem_video, .blox_elem_audio ul.jp-controls-play, .blox_elem_video ul.jp-controls-play,
+.blox_elem_audio ul.jp-controls-play, .blox_elem_video ul.jp-controls-play, .jp-time-holder, .jp-time-holder, ul.jp-controls-sound, ul.jp-controls-sound,
+.jp-seek-bar, .jp-seek-bar, .blox_elem_progress.style1, .blox_elem_progress.style1, .blox_elem_progress.style3, .blox_elem_progress.style3,
+.blox_elem_progress.style5, .blox_elem_progress.style5, .right_sidebar, .left_sidebar, .wide_menu #searchform div#s_input,
+input[type="button"], input[type="reset"], input[type="submit"],
+input[type="button"], input[type="reset"], input[type="submit"] {
+    border-color: #ececec;
+}
+.left_sidebar, .wide_menu #searchform input#searchsubmit {
+    border-right: 1px solid #ececec;
+}
+.right_sidebar {
+    border-left: 1px solid #ececec; 
+}
+.mainmenu ul.menu ul {
+    background-color: #FFF;
+    border:1px solid #ececec;
+}

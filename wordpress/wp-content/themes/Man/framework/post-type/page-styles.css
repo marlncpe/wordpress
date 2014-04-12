@@ -1,0 +1,38 @@
+/*#option_wrapper_title_bgcolor,*/
+#pmeta_onepage,
+#option_wrapper_onepages_names,
+#option_wrapper_onepages_links,
+#option_wrapper_bg_repeat,
+#option_wrapper_bg_position,
+#option_wrapper_bg_type,
+#option_wrapper_bg_fixed,
+#button_onepage_add,
+#one_page_custom_link{
+    display: none;
+}
+
+#onepage_container{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#onepage_container .onepage_item{
+    background-color: #EBE6E6;
+    border: 1px solid #dfdfdf;
+    padding:20px;
+    cursor: move;
+    margin-bottom: 5px;
+    position: relative;
+}
+#onepage_container .onepage_item span{
+    display: inline-block;
+    font-weight: bold;
+}
+#onepage_container .onepage_item a{
+    font-size: 15px;
+    color: #21759b;
+    float: right;
+    margin-left: 8px;
+}
+#onepage_container .onepage_item a.op_edit{
+    font-size: 14px;
+}

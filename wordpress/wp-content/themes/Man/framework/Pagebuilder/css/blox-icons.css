@@ -1,0 +1,92 @@
+/*	
+	ICONS ELEMENT
+	-----------------------------------------------------
+*/
+
+
+.blox_elem_icon {
+	text-align: center;
+	line-height: 1em;
+	text-align: center;
+	vertical-align: middle;
+	height: 2.03em;
+	width: 2.03em;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 3em;
+	padding: .5em;
+	margin-right: 30px;
+	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	
+	display: inline-block;
+	
+}
+
+/*	Icon Hover Animation
+*/
+
+.blox_elem_icon > [class^="icon-"] {
+	height: 1em;
+	width: 1em;
+	font-size: 1em;
+	display: block;
+
+	-webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+
+	-moz-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+	-moz-transform-style: preserve-3d;
+	-moz-backface-visibility: hidden;
+
+	/* -- transition is the magic sauce for animation -- */
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.blox_elem_icon:hover > [class^="icon-"] {
+	-webkit-transform: rotateY(360deg);
+	-moz-transform: rotateY(360deg);
+}
+
+/*	Button Styles
+*/
+
+.blox_elem_icon_no_bordered {
+	border: none;
+}
+
+/*	Circle
+*/
+
+.blox_elem_icon_circle {
+	border-width: 1px;
+	border-style: solid;
+	
+	border-radius: 1em;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	
+	background-color: transparent;
+}
+.blox_elem_icon_filled {
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	text-shadow: 0 1px 1px rgba(0,0,0,0.15);
+}
+
+/*	Rectangle
+*/
+
+.blox_elem_icon_rectangle {
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	
+}

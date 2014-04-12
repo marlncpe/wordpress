@@ -1,0 +1,152 @@
+/*	
+	PRICETABLE BOX ELEMENT
+	-----------------------------------------------------
+*/
+
+.blox_elem_price_table {
+	margin-left: 1px;
+	padding-top: 2.35em;
+	text-align: center;
+	visibility: hidden;
+}
+.blox_elem_price_col {
+	float: left;
+	margin-left: -1px;
+	text-align: center;
+	border: 1px solid #ededed;
+	border: 1px solid rgba(192, 192, 192, .3);
+	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+/*	Column Width
+*/
+.blox_elem_price_col_one {
+	width: 100%;
+}
+.blox_elem_price_col_two {
+	width: 50%;
+}
+.blox_elem_price_col_three {
+	width: 33.333333%;
+}
+.blox_elem_price_col_four {
+	width: 25%;
+}
+.blox_elem_price_col_five {
+	width: 20%;
+}
+
+/*	Plan Styling
+*/
+.blox_elem_price_plan_name {
+	background-color: #f6f6f6;
+	background-color: rgba(192, 192, 192, 0.1);
+	border-bottom: 1px solid #ededed;
+	border-bottom: 1px solid rgba(192, 192, 192, .3);
+	padding: 2em;
+}
+.blox_elem_price_plan_name h3 {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.blox_elem_price_plan_price {
+	border-bottom: 1px solid #ededed;
+	border-bottom: 1px solid rgba(192, 192, 192, .3);
+	padding: 3em;
+}
+.blox_elem_price_plan_text{
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #ededed;
+	border-bottom: 1px solid rgba(192, 192, 192, .3);
+	padding: 1em;
+}
+.blox_elem_price_plan_text span > span {
+	margin-top: 15px;
+}
+.blox_elem_price_plan_text .blox_elem_icon {
+	font-size: 13px !important;
+	color: #000;
+	padding: 0;
+	height: auto;
+	width: auto;
+}
+.blox_elem_price_plan_price .price_number {
+	line-height: 1;
+}
+.blox_elem_price_plan_price span.number {
+	font-size: 72px;
+	font-weight: bold;
+}
+.blox_elem_price_plan_price span.currency {
+	font-size: 26px;
+	position: relative;
+	top: -32px;
+	left: -5px;
+	font-weight: 100;
+}
+
+.blox_elem_price_plan_price span.per {
+	font-size: 11px;
+	text-transform: uppercase;
+	opacity: .6;
+}
+.blox_elem_price_table ul {
+	list-style: none;
+	margin: 0;
+}
+.blox_elem_price_table ul li {
+	list-style: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #ededed;
+	border-bottom: 1px solid rgba(192, 192, 192, .3);
+	padding: 1em;
+	
+}
+.blox_elem_price_plan_footer {
+	padding: 2em;
+	background-color: #f6f6f6;
+	background-color: rgba(192, 192, 192, 0.1);
+}
+
+/* Description Cell */
+.blox_elem_description_col {
+	border: 1px solid rgba(255,255,255,0);
+}
+.blox_elem_description_col .blox_elem_price_plan_name,
+.blox_elem_description_col .blox_elem_price_plan_price,
+.blox_elem_description_col .blox_elem_price_plan_text a.blox_elem_button,
+.blox_elem_description_col .blox_elem_price_plan_footer {
+	display: block;
+	visibility: hidden;
+}
+
+.blox_elem_price_plan_text .blox_elem_icon {
+	margin: 0;
+}
+.blox_elem_price_plan_text .blox_elem_button {
+	margin: 15px 0;
+}
+
+/*	Featured Plan
+*/
+.blox_elem_featured_plan {
+	border-color: #00b4cb;
+	box-shadow: 0 0 40px rgba(0,0,0,0.2);
+	margin-top: -2.35em;
+	position: relative;
+}
+.blox_elem_featured_plan .blox_elem_price_plan_name {
+	padding: 3em;
+}
+.blox_elem_featured_plan .blox_elem_price_plan_name h3 {
+	font-size: 1.5em;
+}

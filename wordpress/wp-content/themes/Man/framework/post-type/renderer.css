@@ -1,0 +1,97 @@
+
+
+.pmeta_item_browse{
+	
+}
+.pmeta_item_browse .browse_preview{
+	max-width: 245px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	line-height: 0px;
+	margin-top: 12px;
+	position: relative;
+	display: none;
+}
+.pmeta_item_browse .browse_preview img{
+	width: 100%;
+	max-width: 100%;
+}
+.pmeta_item_browse .browse_preview a{
+	position: absolute;
+	top: 14px;
+	right: 10px;
+	display: inline-block;
+	font-size: 11px;
+	color: #ff0000;
+}
+
+
+.page_option_fieldset{
+	margin: 20px 0;
+	border-bottom: 1px dotted #ddd;
+	padding-bottom: 20px;
+}
+.page_option_field{
+	width: 55%;
+	float: left;
+}
+.field_description{
+	width: 40%;
+	float: right;
+	font-size: 11px;
+	color: #777;
+	border-left: 1px solid #ccc;
+	padding-left: 10px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.page_option_field input[type=text]{
+	width: 100%;
+}
+.page_option_field .pmeta_item_browse input[type=text],
+.page_option_field .pmeta_item_font input[type=text]{
+	width: 70%;
+}
+
+.page_option_field textarea{
+	width: 100%;
+	min-height: 100px;
+}
+.page_option_field select{
+	min-width: 50%;
+}
+
+.page_option_field_thumbs{
+
+}
+.page_option_field_thumbs input{
+	display: none;
+}
+.page_option_field_thumbs img{
+	border: 2px solid #ddd;
+	margin-right: 10px;
+}
+.page_option_field_thumbs img.active{
+	border-color: #4cd864;
+}
+
+
+.page_option_field .wp-picker-container{
+	float: left;
+	margin-top: -4px;
+	margin-right: 7px;
+}
+.page_option_field .wp-picker-container .wp-color-picker{
+	width: 70px;
+}
+
+
+
+
+#header_layout_images img{
+	width: 100%;
+}
+
+
+

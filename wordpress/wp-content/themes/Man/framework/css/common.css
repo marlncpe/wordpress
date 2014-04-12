@@ -1,0 +1,11 @@
+
+/* Widget title color */
+#widget-list > div[id*="_tt_"] .widget-title h4 {color:#0096ff;}
+
+.widget-content ul.tt-widget-categories {
+  list-style:none;
+  padding-left:20px;
+}
+.widget-content ul.tt-widget-categories ul.children{
+  padding:5px 0 0 15px;
+}

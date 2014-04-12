@@ -1,0 +1,132 @@
+/*	
+	IMAGE FRAME BOX ELEMENT
+	-----------------------------------------------------
+*/
+
+.blox_elem_image_frame {
+	display: inline-block;
+}
+.blox_elem_image_frame caption {
+	
+}
+.blox_elem_image_frame .blox_elem_image_frame_hover {
+	width: 100%;
+	height: 100%;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0);
+	cursor: pointer;
+	z-index: 1;
+	visibility: hidden;
+	
+	-ms-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+.blox_elem_image_frame:hover .blox_elem_image_frame_hover {
+	visibility: visible;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+.blox_elem_image_frame_border {
+	border-width: 1px;
+	border-style: solid;
+	padding: 8px;
+	background-color: #f4f4f4;
+	background-color: rgba(192, 192, 192, .1);
+	border-color: #ededed;
+	border-color: rgba(192, 192, 192, .3);
+	
+}
+.blox_elem_image_frame a {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.blox_elem_image_frame img {
+	float: left;
+	position: relative;
+	-webkit-transform: scale(1) rotate(0);
+	transition: all 0.2s ease-out;
+}
+.blox_elem_image_frame:hover img {
+	-webkit-transform: scale(1.2) rotate(-1deg);
+}
+.blox_elem_image_frame [class^="icon-"] {
+	font-size: 2em;
+	height: 1em;
+	width: 1em;
+	margin-top: -.5em;
+	margin-left: -.5em;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	-webkit-transform: scale(0);
+	transition: all 0.2s ease-out;	
+	color: #000;
+}
+.blox_elem_image_frame:hover [class^="icon-"] {
+	-webkit-transform: scale(1);
+}
+.blox_elem_image_frame_colored .blox_elem_image_frame_border {
+	border-color: rgba(0, 0, 0, 0.1);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.blox_elem_caption_text {
+	font-size: 12px 30px 0;
+	margin-top: 15px;
+	text-align: center;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 1.4em;
+}
+
+/*	Circle 
+*/
+.blox_elem_image_frame_circle, .blox_elem_image_frame_circle img {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+.blox_elem_image_frame_radius:hover img, .blox_elem_image_frame:hover .blox_elem_image_frame_radius img {
+	-webkit-transform: scale(1);
+}
+
+/*	No Border
+*/
+
+.blox_elem_image_frame_no_border {
+	border: none;
+	padding: 0;
+}
+
+/*	Bordered
+*/
+.blox_elem_image_frame_bordered, .blox_elem_image_frame_bordered.blox_elem_image_frame_no_border img {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+/*	Caption in Image
+*/
+.blox_elem_image_frame_caption_image p.blox_elem_caption_text {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	width: 50%;
+	background-color: rgba(0, 0, 0, .75);
+	color: #FFF;
+	padding: 15px;
+}
+.blox_elem_image_frame_caption_image.blox_elem_image_frame_caption_center p.blox_elem_caption_text {
+	margin-left: -25%;
+	left: 50%;
+}
+.blox_elem_image_frame_caption_image.blox_elem_image_frame_caption_right p.blox_elem_caption_text {
+	left: auto;
+	right: 15px;
+}

@@ -1,0 +1,373 @@
+/*	
+	COLORS BOX ELEMENT
+	-----------------------------------------------------
+*/
+
+.blox_elem_color_background {
+	color: #FFF;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.15);
+}
+.blox_elem_color_background.blox_elem_color_turquoise {
+	background-color: #6ac7ad;
+	color: #FFF;
+}
+.blox_elem_color_background.blox_elem_color_turquoise:hover {
+	background-color: #5cad96;
+	color: #FFF;
+}
+
+.blox_elem_color_background.blox_elem_color_green_sea {
+	background-color: #469f83;
+	color: #FFF;
+}
+.blox_elem_color_background.blox_elem_color_green_sea:hover {
+	background-color: #3a856d;
+	color: #FFF;
+}
+
+.blox_elem_color_background.blox_elem_color_sun_flower {
+	background-color: #ebd200;
+	color: #FFF;
+}
+.blox_elem_color_background.blox_elem_color_sun_flower:hover {
+	background-color: #d4bb00;
+	color: #FFF;
+}
+
+.blox_elem_color_background.blox_elem_color_orange {
+	background-color: #e7a100;
+	color: #FFF;
+}
+.blox_elem_color_background.blox_elem_color_orange:hover{
+	background-color: #cf9100;
+	color: #FFF;
+}
+
+.blox_elem_color_background.blox_elem_color_emerald {
+	background-color: #76d585;
+	color: #FFF;
+}
+.blox_elem_color_background.blox_elem_color_emerald:hover{
+	background-color: #5aa365;
+	color: #FFF;
+}
+
+.blox_elem_color_background.blox_elem_color_nephritis {
+	background-color: #4fad56;
+	color: #FFF;
+}
+.blox_elem_color_background.blox_elem_color_nephritis:hover{
+	background-color: #387a3d;
+	color: #FFF;
+}
+
+.blox_elem_color_background.blox_elem_color_carrot {
+	background-color: #df9b42;
+	color: #FFF;
+}
+.blox_elem_color_background.blox_elem_color_carrot:hover{
+	background-color: #ab7733;
+	color: #FFF;
+}
+
+.blox_elem_color_background.blox_elem_color_pumpkin {
+	background-color: #ce7b24;
+	color: #FFF;
+}
+.blox_elem_color_background.blox_elem_color_pumpkin:hover{
+	background-color: #9c5d1a;
+	color: #FFF;
+}
+
+.blox_elem_color_background.blox_elem_color_peter_river {
+	background-color: #72a9e6;
+	color: #FFF;
+}
+.blox_elem_color_background.blox_elem_color_peter_river:hover{
+	background-color: #5983b3;
+	color: #FFF;
+}
+
+.blox_elem_color_background.blox_elem_color_belize_hole {
+	background-color: #467dbd;
+	color: #FFF;
+}
+.blox_elem_color_background.blox_elem_color_belize_hole:hover{
+	background-color: #335b8a;
+	color: #FFF;
+}
+
+.blox_elem_color_background.blox_elem_color_alizarin {
+	background-color: #d75638;
+	color: #FFF;
+}
+.blox_elem_color_background.blox_elem_color_alizarin:hover{
+	background-color: #a3412a;
+	color: #FFF;
+}
+
+.blox_elem_color_background.blox_elem_color_pomegranate {
+	background-color: #b24227;
+	color: #FFF;
+}
+.blox_elem_color_background.blox_elem_color_pomegranate:hover{
+	background-color: #80301c;
+	color: #FFF;
+}
+
+.blox_elem_color_background.blox_elem_color_amethyst {
+	background-color: #9458bb;
+	color: #FFF;
+}
+.blox_elem_color_background.blox_elem_color_amethyst:hover{
+	background-color: #6a4087;
+	color: #FFF;
+}
+
+.blox_elem_color_background.blox_elem_color_wisteria {
+	background-color: #9f68c2;
+	color: #FFF;
+}
+.blox_elem_color_background.blox_elem_color_wisteria:hover{
+	background-color: #764d8f;
+	color: #FFF;
+}
+
+.blox_elem_color_background.blox_elem_color_clouds {
+	background-color: #f0f3f3;
+	color: #666;
+}
+.blox_elem_color_background.blox_elem_color_clouds:hover{
+	background-color: #bdbfbf;
+	color: #666;
+}
+
+.blox_elem_color_background.blox_elem_color_silver {
+	background-color: #bec3c7;
+	color: #FFF;
+}
+.blox_elem_color_background.blox_elem_color_silver:hover{
+	background-color: #8d9194;
+	color: #FFF;
+}
+
+.blox_elem_color_background.blox_elem_color_wet_asphalt {
+	background-color: #394860;
+	color: #FFF;
+}
+.blox_elem_color_background.blox_elem_color_wet_asphalt:hover{
+	background-color: #1b222e;
+	color: #FFF;
+}
+
+.blox_elem_color_background.blox_elem_color_midnight_blue {
+	background-color: #303d51;
+	color: #FFF;
+}
+.blox_elem_color_background.blox_elem_color_midnight_blue:hover{
+	background-color: #12171f;
+	color: #FFF;
+}
+
+.blox_elem_color_background.blox_elem_color_concrete {
+	background-color: #98a4a6;
+	color: #FFF;
+}
+.blox_elem_color_background.blox_elem_color_concrete:hover{
+	background-color: #6a7173;
+	color: #FFF;
+}
+
+.blox_elem_color_background.blox_elem_color_asbestos {
+	background-color: #9aa3a3;
+	color: #FFF;
+}
+.blox_elem_color_background.blox_elem_color_asbestos:hover{
+	background-color: #697070;
+	color: #FFF;
+}
+
+/*	Border & Text Color Elements
+*/
+
+.blox_elem_color_border {
+}
+.blox_elem_color_border.blox_elem_color_turquoise {
+	border-color: #6ac7ad;	
+	color: #6ac7ad;
+}
+.blox_elem_color_border.blox_elem_color_turquoise:hover {
+	border-color: #5cad96;
+	color: #5cad96;
+}
+
+.blox_elem_color_border.blox_elem_color_green_sea {
+	border-color: #469f83;
+	color: #469f83;
+}
+.blox_elem_color_border.blox_elem_color_green_sea:hover {
+	border-color: #3a856d;
+	color: #3a856d;
+}
+
+.blox_elem_color_border.blox_elem_color_sun_flower {
+	border-color: #ebd200;
+	color: #ebd200;
+}
+.blox_elem_color_border.blox_elem_color_sun_flower:hover {
+	border-color: #d4bb00;
+	color: #d4bb00;
+}
+
+.blox_elem_color_border.blox_elem_color_orange {
+	border-color: #e7a100;
+	color: #e7a100;
+}
+.blox_elem_color_border.blox_elem_color_orange:hover{
+	border-color: #cf9100;
+	color: #cf9100;
+}
+
+.blox_elem_color_border.blox_elem_color_emerald {
+	border-color: #76d585;
+	color: #76d585;
+}
+.blox_elem_color_border.blox_elem_color_emerald:hover{
+	border-color: #5aa365;
+	color: #5aa365;
+}
+
+.blox_elem_color_border.blox_elem_color_nephritis {
+	border-color: #4fad56;
+	color: #4fad56;
+}
+.blox_elem_color_border.blox_elem_color_nephritis:hover{
+	border-color: #387a3d;
+	color: #387a3d;
+}
+
+.blox_elem_color_border.blox_elem_color_carrot {
+	border-color: #df9b42;
+	color: #df9b42;
+}
+.blox_elem_color_border.blox_elem_color_carrot:hover{
+	border-color: #ab7733;
+	color: #ab7733;
+}
+
+.blox_elem_color_border.blox_elem_color_pumpkin {
+	border-color: #ce7b24;
+	color: #ce7b24;
+}
+.blox_elem_color_border.blox_elem_color_pumpkin:hover{
+	border-color: #9c5d1a;
+	color: #9c5d1a;
+}
+
+.blox_elem_color_border.blox_elem_color_peter_river {
+	border-color: #72a9e6;
+	color: #72a9e6;
+}
+.blox_elem_color_border.blox_elem_color_peter_river:hover{
+	border-color: #5983b3;
+	color: #5983b3;
+}
+
+.blox_elem_color_border.blox_elem_color_belize_hole {
+	border-color: #467dbd;
+	color: #467dbd;
+}
+.blox_elem_color_border.blox_elem_color_belize_hole:hover{
+	border-color: #335b8a;
+	color: #335b8a;
+}
+
+.blox_elem_color_border.blox_elem_color_alizarin {
+	border-color: #d75638;
+	color: #d75638;
+}
+.blox_elem_color_border.blox_elem_color_alizarin:hover{
+	border-color: #a3412a;
+	color: #a3412a;
+}
+
+.blox_elem_color_border.blox_elem_color_pomegranate {
+	border-color: #b24227;
+	color: #b24227;
+}
+.blox_elem_color_border.blox_elem_color_pomegranate:hover{
+	border-color: #80301c;
+	color: #80301c;
+}
+
+.blox_elem_color_border.blox_elem_color_amethyst {
+	border-color: #9458bb;
+	color: #9458bb;
+}
+.blox_elem_color_border.blox_elem_color_amethyst:hover{
+	border-color: #6a4087;
+	color: #6a4087;
+}
+
+.blox_elem_color_border.blox_elem_color_wisteria {
+	border-color: #9f68c2;
+	color: #9f68c2;
+}
+.blox_elem_color_border.blox_elem_color_wisteria:hover{
+	border-color: #764d8f;
+	color: #764d8f;
+}
+
+.blox_elem_color_border.blox_elem_color_clouds {
+	border-color: #f0f3f3;
+	color: #f0f3f3;
+}
+.blox_elem_color_border.blox_elem_color_clouds:hover{
+	border-color: #bdbfbf;
+	color: #bdbfbf;
+}
+
+.blox_elem_color_border.blox_elem_color_silver {
+	border-color: #bec3c7;
+	color: #bec3c7;
+}
+.blox_elem_color_border.blox_elem_color_silver:hover{
+	border-color: #8d9194;
+	color: #8d9194;
+}
+
+.blox_elem_color_border.blox_elem_color_wet_asphalt {
+	border-color: #394860;
+	color: #394860;
+}
+.blox_elem_color_border.blox_elem_color_wet_asphalt:hover{
+	border-color: #1b222e;
+	color: #1b222e;
+}
+
+.blox_elem_color_border.blox_elem_color_midnight_blue {
+	border-color: #303d51;
+	color: #303d51;
+}
+.blox_elem_color_border.blox_elem_color_midnight_blue:hover{
+	border-color: #12171f;
+	color: #12171f;
+}
+
+.blox_elem_color_border.blox_elem_color_concrete {
+	border-color: #98a4a6;
+	color: #98a4a6;
+}
+.blox_elem_color_border.blox_elem_color_concrete:hover{
+	border-color: #6a7173;
+	color: #6a7173;
+}
+
+.blox_elem_color_border.blox_elem_color_asbestos {
+	border-color: #9aa3a3;
+	color: #9aa3a3;
+}
+.blox_elem_color_border.blox_elem_color_asbestos:hover{
+	border-color: #697070;
+	color: #697070;
+}

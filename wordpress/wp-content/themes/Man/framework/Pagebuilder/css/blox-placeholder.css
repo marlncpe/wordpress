@@ -1,0 +1,22 @@
+/*	
+        PLACEHOLDER BOX ELEMENT
+        -----------------------------------------------------
+*/
+
+.blox_elem_placeholder {
+    border-width: 1px;
+    border-style: solid;
+    background-color: #f6f6f6;
+    border-color: #ededed;
+    background-color: rgba(192, 192, 192, .1);
+    border-color: rgba(192, 192, 192, .3);
+    position: relative;
+}
+.blox_elem_placeholder [class^="icon-"] {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -.5em;
+    margin-top: -.5em;
+    font-size: 2em;
+}

@@ -1,0 +1,118 @@
+/*	
+	CALLOUT ELEMENT
+	-----------------------------------------------------
+*/
+
+.blox_elem_callout h2 {
+	font-size: 36px;
+	line-height: 1.1em;
+	margin-top: 0;
+} 
+.blox_elem_callout .blox_callout_content {
+	font-size: 18px;
+	line-height: 1.5em;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+.blox_elem_callout.blox_elem_callout_no_button .blox_elem_callout_button{
+	display: none;
+}
+.blox_elem_callout {
+	position: relative;
+}
+.blox_elem_callout .blox_elem_button {
+	position: absolute;
+	right: 40px;
+	top: 50%;
+}
+.blox_elem_callout .blox_elem_button_medium {
+	margin-top: -21px;
+}
+.blox_elem_callout .blox_elem_button_large {
+	margin-top: -27px;
+}
+.blox_elem_callout .blox_elem_button_small {
+	margin-top: -14px;
+}
+
+/*	Clean
+*/
+
+.blox_elem_callout_clean {
+	padding: 60px 40px;
+	border: 1px solid #ededed;
+	border: 1px solid rgba(0, 0, 0, 0.04);
+	
+	border-radius:  3px;
+	-webkit-border-radius:  3px;
+	-moz-border-radius:  3px;
+	
+	box-shadow: 0 10px 40px rgba(0,0,0,0.09);
+	-webkit-box-shadow: 0 10px 40px rgba(0,0,0,0.09);
+	-moz-box-shadow: 0 10px 40px rgba(0,0,0,0.09);
+}
+.blox_elem_callout_clean h2 {
+	font-weight: 100;
+	color: #999;
+	
+}
+.blox_elem_callout_clean p {
+	font-weight: 100;
+	color: #999;
+}
+
+/*	Flat
+*/
+
+.blox_elem_callout_flat {
+	padding: 40px;
+	border-width: 4px;
+	border-style: solid;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;	
+}
+.blox_elem_callout_flat h2 {
+	font-weight: bold;
+}
+
+/*	Centered
+*/
+
+.blox_elem_callout_centered {
+	border: none;
+	text-align: center;
+	padding: 40px;
+}
+.blox_elem_callout_centered h2 {
+	margin: 0 5%;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.blox_elem_callout_centered p {
+	margin-left: 10%;
+	margin-right: 10% !important;
+	font-size: 22px;
+	margin-top: 15px;
+}
+.blox_elem_callout_centered .blox_elem_button {
+	position: relative;
+	right: auto;
+	top: auto;
+	margin-top: 25px;
+	display: inline-block;
+}
+
+/*	Metro
+*/
+
+.blox_elem_callout_metro {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 40px;
+	
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	
+}
+
